@@ -61,13 +61,19 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - Installs docker.io, pip3, docker python module
+![alt text](https://github.com/juan-desu/Automated-ELK-Stack-Deplyment/blob/385bd483ce51459d6875681cbe65ba68cdac6777/Images/Install%20docker.png)
 - Increases Virtual memory
-- Enables systemd docker service 
+![alt text](https://github.com/juan-desu/Automated-ELK-Stack-Deplyment/blob/385bd483ce51459d6875681cbe65ba68cdac6777/Images/Increase%20Memory.png)
+- Enables systemd docker service
+![alt text](https://github.com/juan-desu/Automated-ELK-Stack-Deplyment/blob/385bd483ce51459d6875681cbe65ba68cdac6777/Images/Enable%20systemd%20module.png) 
 - Downloads and launches the docker container for elk server
+![alt text](https://github.com/juan-desu/Automated-ELK-Stack-Deplyment/blob/385bd483ce51459d6875681cbe65ba68cdac6777/Images/Download%20and%20lauch%20docker.png)
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/juan-desu/Automated-ELK-Stack-Deplyment/blob/385bd483ce51459d6875681cbe65ba68cdac6777/Images/docker-sudo-ps.png
+)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
